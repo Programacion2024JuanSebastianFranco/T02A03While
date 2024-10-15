@@ -37,5 +37,29 @@ public class Main {
             suma++;
         }
 
+        //14
+
+        int operacion = 0;
+        int acumulador = 0;
+        int numero;
+
+
+        System.out.println("Introduzca un número entero \nIntroduce un número negativo para finalizar");
+        numero = scan.nextInt();
+
+
+        if (numero >= 0) {
+            while (numero >= 0) {
+                operacion += numero;
+                System.out.println("Introduzca un número entero \nIntroduce un número negativo para finalizar");
+                numero = scan.nextInt();
+                acumulador++;
+            }
+            double resultado = operacion/acumulador;
+
+            System.out.println("Tu media fue " + resultado);
+        }
+        else System.out.println("Introduce un valor positivo. Fin de programa");
+
     }
 }
