@@ -1,8 +1,10 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+
 
 
         //8
@@ -21,8 +23,8 @@ public class Main {
         System.out.println("Termina el bucle");
 
 
-        //12
 
+        //12
         int clase;
         int ordenadores;
         int suma = 1;
@@ -37,8 +39,10 @@ public class Main {
             suma++;
         }
 
-        //14
 
+
+
+        //14
         int operacion = 0;
         int acumulador = 0;
         int numero;
@@ -60,6 +64,37 @@ public class Main {
             System.out.println("Tu media fue " + resultado);
         }
         else System.out.println("Introduce un valor positivo. Fin de programa");
+
+
+
+
+        //16
+         Random rand = new Random();
+
+         int numRand = rand.nextInt(1,11);
+         int num;
+         int intentos = 0;
+
+        System.out.println("Intenta adivinar el numero del 1 al 10: ");
+        num = scan.nextInt();
+        intentos++;
+
+        while (num != numRand){
+            if (num > numRand){
+                System.out.println("Tu numero es mayor");
+            }
+            else if (num < numRand) {
+                System.out.println("Tu numero es menor");
+            }
+            else {
+                System.out.println("Te dije del 1 al 10");
+            }
+            System.out.println("Intenta adivinar el numero del 1 al 10: ");
+            num = scan.nextInt();
+            intentos++;
+        }
+        System.out.println("¡¡¡¡¡¡Premio!!!!!!! Lo has conseguido en " + intentos + " intentos");
+
 
     }
 }
