@@ -1,4 +1,3 @@
-import java.awt.print.Printable;
 import java.util.Scanner;
 
 public class Main {
@@ -22,7 +21,22 @@ public class Main {
         System.out.println("Termina el bucle");
 
 
-        //
+        //12
+
+        int clase;
+        int ordenadores;
+        int suma = 1;
+
+        System.out.println("Introduce el numero de la clase: ");
+        clase = scan.nextInt();
+        System.out.println("Introduce el numero de computadores:");
+        ordenadores = scan.nextInt();
+
+        while(suma <= ordenadores){
+            System.out.println(clase + "." + suma);
+            suma++;
+        }
+
 
     }
 }

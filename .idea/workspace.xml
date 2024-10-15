@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d82bf130-7aa7-4a28-9ac2-3725d50c5951" name="Changes" comment="inicio">
+    <list default="true" id="d82bf130-7aa7-4a28-9ac2-3725d50c5951" name="Changes" comment="empezando ejercicio.. 13??">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -65,11 +65,20 @@
       <option name="project" value="LOCAL" />
       <updated>1728408352518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="empezando ejercicio.. 13??">
+      <option name="closed" value="true" />
+      <created>1729012278254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729012278254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="inicio" />
+    <MESSAGE value="empezando ejercicio.. 13??" />
+    <option name="LAST_COMMIT_MESSAGE" value="empezando ejercicio.. 13??" />
   </component>
 </project>
